@@ -1,0 +1,140 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fuxe{border-color:inherit;font-size:18px;text-align:left;vertical-align:top}
+.tg .tg-4xua{background-color:#D2E4FC;border-color:inherit;font-size:18px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <td class="tg-c6of" colspan="2" rowspan="18"></td>
+    <td class="tg-c6of" colspan="4" rowspan="2"></td>
+    <td class="tg-c6of" rowspan="18"></td>
+    <td class="tg-c6of" colspan="4" rowspan="2"></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td class="tg-fuxe">S no</td>
+    <td class="tg-fuxe">Parameters</td>
+    <td class="tg-fuxe">Parameter description</td>
+    <td class="tg-fuxe">Values</td>
+    <td class="tg-fuxe">S no</td>
+    <td class="tg-fuxe">Parameters</td>
+    <td class="tg-fuxe">Parameter description</td>
+    <td class="tg-fuxe">Values</td>
+  </tr>
+  <tr>
+    <td class="tg-4xua">1</td>
+    <td class="tg-4xua">Age</td>
+    <td class="tg-4xua">Age in years</td>
+    <td class="tg-4xua">Continuous</td>
+    <td class="tg-4xua">8</td>
+    <td class="tg-4xua">MaxHR</td>
+    <td class="tg-4xua">Maximum heart rate achieved</td>
+    <td class="tg-4xua">Continuous value</td>
+  </tr>
+  <tr>
+    <td class="tg-fuxe" rowspan="2">2</td>
+    <td class="tg-fuxe" rowspan="2">Sex</td>
+    <td class="tg-fuxe" rowspan="2">Male or female</td>
+    <td class="tg-fuxe">1= male</td>
+    <td class="tg-fuxe" rowspan="2">9</td>
+    <td class="tg-fuxe" rowspan="2">ExAng</td>
+    <td class="tg-fuxe" rowspan="2">Exercise induced angina</td>
+    <td class="tg-fuxe">No</td>
+  </tr>
+  <tr>
+    <td class="tg-4xua">0= female</td>
+    <td class="tg-4xua">Yes</td>
+  </tr>
+  <tr>
+    <td class="tg-fuxe" rowspan="4">3</td>
+    <td class="tg-fuxe" rowspan="4">ChestPain</td>
+    <td class="tg-fuxe" rowspan="4">Chest pain type</td>
+    <td class="tg-fuxe">1= typical type 1</td>
+    <td class="tg-fuxe">10</td>
+    <td class="tg-fuxe">Oldpeak</td>
+    <td class="tg-fuxe">ST depression induced by exercise relative to rest</td>
+    <td class="tg-fuxe">Continuous value</td>
+  </tr>
+  <tr>
+    <td class="tg-4xua">2= typical type angina</td>
+    <td class="tg-4xua" rowspan="3">11</td>
+    <td class="tg-4xua" rowspan="3">Slope</td>
+    <td class="tg-4xua" rowspan="3" >Slope of the peak exercise ST segment</td>
+    <td class="tg-4xua">1= unsloping</td>
+  </tr>
+  <tr>
+    <td class="tg-fuxe">3= non-angina pain</td>
+    <td class="tg-fuxe">2= flat</td>
+  </tr>
+  <tr>
+    <td class="tg-4xua">4= asymptomatic</td>
+    <td class="tg-4xua">3= downsloping</td>
+  </tr>
+  <tr>
+    <td class="tg-fuxe">4</td>
+    <td class="tg-fuxe">RestBP</td>
+    <td class="tg-fuxe">Resting blood pressure</td>
+    <td class="tg-fuxe">Continuous value in mmHg</td>
+    <td class="tg-fuxe">12</td>
+    <td class="tg-fuxe">Ca</td>
+    <td class="tg-fuxe">Number of major vessels colored by fluoroscopy</td>
+    <td class="tg-fuxe">0 to 3 value</td>
+  </tr>
+  <tr>
+    <td class="tg-4xua" rowspan="2">5</td>
+    <td class="tg-4xua" rowspan="2">Chol</td>
+    <td class="tg-4xua" rowspan="2">Serum cholesterol</td>
+    <td class="tg-4xua"rowspan="2" >Continuous value in mm/dL</td>
+    <td class="tg-4xua" rowspan="3">13</td>
+    <td class="tg-4xua" rowspan="3">Thal</td>
+    <td class="tg-4xua" rowspan="3">Defect type</td>
+    <td class="tg-4xua">normal</td>
+  </tr>
+  <tr>
+
+    <td class="tg-fuxe">fixed</td>
+  </tr>
+  <tr>
+    <td class="tg-4xua" rowspan="2">6</td>
+    <td class="tg-4xua" rowspan="2">Fbs</td>
+    <td class="tg-4xua" rowspan="2">Fasting blood sugar</td>
+    <td class="tg-4xua">1 &gt;120 mg/dL</td>
+    <td class="tg-4xua">reversible defect</td>
+  </tr>
+  <tr>
+    <td class="tg-fuxe">0 &le; 120 mg/dL</td>
+    <td class="tg-fuxe" rowspan="2">15</td>
+    <td class="tg-fuxe" rowspan="2">AHD</td>
+    <td class="tg-fuxe" rowspan="2">Diagnosis of heart disease</td>
+    <td class="tg-fuxe">No = Chances &le; 50%</td>
+  </tr>
+  <tr>
+    <td class="tg-4xua" rowspan="3">7</td>
+    <td class="tg-4xua" rowspan="3">RestECG</td>
+    <td class="tg-4xua" rowspan="3">Resting electrographic results</td>
+    <td class="tg-4xua">0= normal</td>
+    <td class="tg-4xua">Yes = Chances &gt; 50%</td>
+  </tr>
+  <tr>
+    <td class="tg-fuxe">1= having ST-T wave abnormal</td>
+    <td class="tg-fuxe"></td>
+    <td class="tg-fuxe"></td>
+    <td class="tg-fuxe"></td>
+    <td class="tg-fuxe"></td>
+  </tr>
+  <tr>
+    <td class="tg-4xua">2= left ventricular hypertrophy</td>
+    <td class="tg-4xua"></td>
+    <td class="tg-4xua"></td>
+    <td class="tg-4xua"></td>
+    <td class="tg-4xua"></td>
+  </tr>
+</thead>
+</table>
